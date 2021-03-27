@@ -1,4 +1,4 @@
-# MinecraftBackupUtility
+# Minecraft Backup Utility
 Windows 10 Edition Only! 
 
 # Build Help
