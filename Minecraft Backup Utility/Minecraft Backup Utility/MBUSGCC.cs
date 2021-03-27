@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
@@ -279,7 +279,20 @@ Process.Start("https://discord.gg/EFadqKJSr2");
 DiscordLink.LinkVisited = true;
 }
 
+private void CabconLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e){
+Process.Start("https://cabconmodding.com/members/dr-nha-mods.44193/");
+CabconLink.LinkVisited=true;
+}
 
+private void Se7ensinsLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e){
+Process.Start("https://www.se7ensins.com/members/nohacksallowed.1062296/");
+Se7sinsLink.LinkVisited=true;
+}
+
+private void UpdateLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e){
+Process.Start("https://github.com/dr-NHA/MinecraftBackupUtility");
+UpdateLink.LinkVisited=true;
+}
 
 }
 }
