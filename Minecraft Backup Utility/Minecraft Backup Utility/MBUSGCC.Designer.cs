@@ -1,4 +1,4 @@
-﻿namespace Minecraft_Backup_Utility
+namespace Minecraft_Backup_Utility
 {
     partial class MBUSGCC
     {
@@ -59,7 +59,10 @@
             this.YoutubeLink = new System.Windows.Forms.LinkLabel();
             this.Author = new System.Windows.Forms.Label();
             this.DiscordLink = new System.Windows.Forms.LinkLabel();
+            this.CabconLink = new System.Windows.Forms.LinkLabel();
+            this.Se7sinsLink = new System.Windows.Forms.LinkLabel();
             this.TitleLogoBox = new System.Windows.Forms.PictureBox();
+            this.UpdateLink = new System.Windows.Forms.LinkLabel();
             this.flowLayoutPanel1.SuspendLayout();
             this.TopPan.SuspendLayout();
             this.CenPan.SuspendLayout();
@@ -438,10 +441,13 @@
             // 
             this.BottomPan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
             this.BottomPan.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.BottomPan.Controls.Add(this.UpdateLink);
             this.BottomPan.Controls.Add(this.LogoBox);
             this.BottomPan.Controls.Add(this.YoutubeLink);
             this.BottomPan.Controls.Add(this.Author);
             this.BottomPan.Controls.Add(this.DiscordLink);
+            this.BottomPan.Controls.Add(this.CabconLink);
+            this.BottomPan.Controls.Add(this.Se7sinsLink);
             this.BottomPan.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BottomPan.Location = new System.Drawing.Point(0, 368);
             this.BottomPan.Name = "BottomPan";
@@ -465,7 +471,7 @@
             this.YoutubeLink.ActiveLinkColor = System.Drawing.Color.Pink;
             this.YoutubeLink.Font = new System.Drawing.Font("Segoe UI Light", 10.25F, System.Drawing.FontStyle.Bold);
             this.YoutubeLink.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.YoutubeLink.Location = new System.Drawing.Point(423, 12);
+            this.YoutubeLink.Location = new System.Drawing.Point(423, -7);
             this.YoutubeLink.Name = "YoutubeLink";
             this.YoutubeLink.Size = new System.Drawing.Size(160, 28);
             this.YoutubeLink.TabIndex = 1;
@@ -494,7 +500,7 @@
             this.DiscordLink.ActiveLinkColor = System.Drawing.Color.Pink;
             this.DiscordLink.Font = new System.Drawing.Font("Segoe UI Light", 10.25F, System.Drawing.FontStyle.Bold);
             this.DiscordLink.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.DiscordLink.Location = new System.Drawing.Point(422, 36);
+            this.DiscordLink.Location = new System.Drawing.Point(422, 10);
             this.DiscordLink.Name = "DiscordLink";
             this.DiscordLink.Size = new System.Drawing.Size(160, 32);
             this.DiscordLink.TabIndex = 2;
@@ -504,6 +510,36 @@
             this.DiscordLink.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.DiscordLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.DiscordLink_LinkClicked);
             this.DiscordLink.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MoveAbleWindow_MouseMove);
+            // 
+            // CabconLink
+            // 
+            this.CabconLink.ActiveLinkColor = System.Drawing.Color.Pink;
+            this.CabconLink.Font = new System.Drawing.Font("Segoe UI Light", 10.25F, System.Drawing.FontStyle.Bold);
+            this.CabconLink.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.CabconLink.Location = new System.Drawing.Point(405, 31);
+            this.CabconLink.Name = "CabconLink";
+            this.CabconLink.Size = new System.Drawing.Size(195, 32);
+            this.CabconLink.TabIndex = 4;
+            this.CabconLink.TabStop = true;
+            this.CabconLink.Text = "dr NHA\'s CabconModding";
+            this.CabconLink.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.CabconLink.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.CabconLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.CabconLink_LinkClicked);
+            // 
+            // Se7sinsLink
+            // 
+            this.Se7sinsLink.ActiveLinkColor = System.Drawing.Color.Pink;
+            this.Se7sinsLink.Font = new System.Drawing.Font("Segoe UI Light", 10.25F, System.Drawing.FontStyle.Bold);
+            this.Se7sinsLink.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.Se7sinsLink.Location = new System.Drawing.Point(403, 51);
+            this.Se7sinsLink.Name = "Se7sinsLink";
+            this.Se7sinsLink.Size = new System.Drawing.Size(195, 32);
+            this.Se7sinsLink.TabIndex = 5;
+            this.Se7sinsLink.TabStop = true;
+            this.Se7sinsLink.Text = "dr NHA\'s se7ensins";
+            this.Se7sinsLink.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Se7sinsLink.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.Se7sinsLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Se7ensinsLink_LinkClicked);
             // 
             // TitleLogoBox
             // 
@@ -516,6 +552,21 @@
             this.TitleLogoBox.TabIndex = 4;
             this.TitleLogoBox.TabStop = false;
             this.TitleLogoBox.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MoveAbleWindow_MouseMove);
+            // 
+            // UpdateLink
+            // 
+            this.UpdateLink.ActiveLinkColor = System.Drawing.Color.Pink;
+            this.UpdateLink.Font = new System.Drawing.Font("Segoe UI Light", 10.25F, System.Drawing.FontStyle.Bold);
+            this.UpdateLink.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.UpdateLink.Location = new System.Drawing.Point(105, 51);
+            this.UpdateLink.Name = "UpdateLink";
+            this.UpdateLink.Size = new System.Drawing.Size(195, 32);
+            this.UpdateLink.TabIndex = 6;
+            this.UpdateLink.TabStop = true;
+            this.UpdateLink.Text = "Update Github";
+            this.UpdateLink.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.UpdateLink.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.UpdateLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.UpdateLink_LinkClicked);
             // 
             // MBUSGCC
             // 
@@ -586,6 +637,9 @@
         private System.Windows.Forms.TextBox InfoText1;
         private System.Windows.Forms.PictureBox LogoBox;
         private System.Windows.Forms.PictureBox TitleLogoBox;
+        private System.Windows.Forms.LinkLabel CabconLink;
+        private System.Windows.Forms.LinkLabel Se7sinsLink;
+        private System.Windows.Forms.LinkLabel UpdateLink;
     }
 }
 
